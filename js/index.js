@@ -11,6 +11,7 @@ $(document).ready( function() {
 function splash(){
   $("#splash-logo").fadeOut(5000, function() {
     $("#splash-logo").addClass("splash-display");
+    $("#logo").removeClass("startplay-display");
     $("#start-and-play").removeClass("startplay-display");
   });
 }
